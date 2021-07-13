@@ -488,7 +488,8 @@ img {
 }
 
 .footer__link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 .footer__social {
