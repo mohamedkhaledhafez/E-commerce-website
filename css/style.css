@@ -294,7 +294,9 @@ img {
 }
 
 .collection__view:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: var(--first-color);
+  font-weight: bold;
 }
 
 /*========== FEATURED ==========*/
