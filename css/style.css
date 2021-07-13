@@ -94,7 +94,7 @@ img {
 
 /*========== CLASS CSS ==========*/
 .section {
-  padding: 3rem;
+  padding: 3rem 0;
 }
 
 .section-title {
@@ -405,4 +405,31 @@ img {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+/*========== NEWSLETTER ==========*/
+.newsletter {
+  text-align: center;
+}
+
+.newsletter__description {
+  margin-bottom: var(--mb-2);
+  font-size: var(--small-font-size);
+  color: var(--dark-color-light);
+}
+
+.newsletter__form {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+}
+
+.newsletter__input {
+  outline: none;
+  border: none;
+  background-color: var(--gray-color);
+  padding: 0 1rem;
+}
+
+.newsletter a {
+  text-transform: uppercase;
 }
